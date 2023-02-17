@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ES2017",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "NodeNext",
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "noEmit": true,
+    "baseUrl": "./",
+    "outDir": "dist",
+    "sourceMap": true,
+  },
+  "include": [
+    "src",
+  ],
+  "exclude": [
+    "node_modules",
+    "tsconfig.json"
+  ]
+}
