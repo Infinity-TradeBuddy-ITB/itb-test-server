@@ -3,7 +3,7 @@ import WebSocket from 'ws'
 import client, { connectRepl } from './mongo-connection'
 import { sleep } from './utils'
 
-const server = new WebSocket.Server({ port: 5500 })
+const server = new WebSocket.Server({ port: 5501 })
 
 async function startTestServer(repl: Db | undefined) {
 	try {
