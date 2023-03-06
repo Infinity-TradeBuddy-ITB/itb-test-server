@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "server for tests",
   "main": "index.js",
-  "license": "SEE LICENSE IN trade_budy.license",
+  "license": "see license in LICENSE",
   "private": true,
   "keywords": [
     "POC",

@@ -6,6 +6,7 @@ import { sleep } from './utils'
 const server = new WebSocket.Server({ port: 5501 })
 
 async function startTestServer(repl: Db | undefined) {
+	console.log('server started 1')
 	try {
 		const ypricedatas = repl?.collection('ypricedatas')
 		if (!ypricedatas) {

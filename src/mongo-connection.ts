@@ -15,6 +15,7 @@ export async function connectRepl(): Promise<Db|undefined> | never {
   try {
     return client.db('itb_repl')
   } catch(e: unknown) {
+    console.log(e)
     await client.close()
   }
 }
