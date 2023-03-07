@@ -23,7 +23,7 @@
     "email": "fernando.ribeiro.olle@gmail.com"
   },
   "scripts": {
-    "pull-types": "add github:Infinity-TradeBuddy-ITB/itb-types#master",
+    "pull-types": "pnpm add github:Infinity-TradeBuddy-ITB/itb-types#master",
     "start": "sucrase-node src/index.ts --watch"
   },
   "dependencies": {
